@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Browse public repositories by Khaja Yousuf Uddin, with live data from GitHub."
+    />
+    <meta name="theme-color" content="#f3f0e6" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Project Archive — Yousuf" />
+    <meta
+      property="og:description"
+      content="Browse public repositories by Khaja Yousuf Uddin, with live data from GitHub."
+    />
+    <meta
+      property="og:url"
+      content="https://yousufprojs-exe.github.io/Portfolio/archive.html"
+    />
+    <meta name="author" content="Khaja Yousuf Uddin" />
+    <meta name="color-scheme" content="light" />
+    <title>Project Archive — Yousuf</title>
+    <link rel="preconnect" href="https://raw.githubusercontent.com" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="archive">
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="ruler" aria-hidden="true"><i></i><span id="pct">0%</span></div>
+    <header class="site-head">
+      <nav class="index" aria-label="Main navigation">
+        <a href="index.html" data-page="index">Home</a>
+        <a href="work.html" data-page="work">Work</a>
+        <a href="archive.html" data-page="archive">Archive</a>
+        <a href="about.html" data-page="about">About</a>
+      </nav>
+      <span class="head-note mono">KHAJA YOUSUF UDDIN</span>
+    </header>
+    <main id="main">
+      <section class="page-intro archive-intro" data-reveal>
+        <p class="mono eyebrow">PUBLIC REPOSITORIES / GITHUB API</p>
+        <h1>The archive<span class="period">.</span></h1>
+        <p class="intro-note">
+          A live list of public repositories. Not everything here is finished,
+          and not everything needs to be.
+        </p>
+      </section>
+      <section class="section archive-section" data-reveal>
+        <div class="archive-controls">
+          <label for="repo-filter" class="mono">FILTER REPOSITORIES</label
+          ><input
+            id="repo-filter"
+            type="search"
+            placeholder="Search by name, language or description"
+            autocomplete="off"
+          />
+          <p id="repo-status" class="mono" role="status" aria-live="polite">
+            Loading repositories…
+          </p>
+        </div>
+        <div class="repo-head mono">
+          <span>REPOSITORY</span><span>DESCRIPTION</span><span>LANGUAGE</span
+          ><span>UPDATED</span>
+        </div>
+        <ul class="repos" id="repos"></ul>
+        <p class="archive-fallback" id="repo-fallback" hidden>
+          GitHub couldn't be reached just now. You can still browse everything
+          directly on
+          <a
+            href="https://github.com/YousufProjs-exe?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub ↗</a
+          >.
+        </p>
+      </section>
+    </main>
+    <footer class="site-footer" id="contact">
+      <p class="tag"><b>↳</b> Contact</p>
+      <h2>Have something<br />worth building?</h2>
+      <a class="contact-mail" href="mailto:saadkhaja2@gmail.com"
+        >saadkhaja2@gmail.com ↗</a
+      >
+      <div class="socials">
+        <a
+          href="https://github.com/YousufProjs-exe"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/yousuf-uddin-a839b23b2"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn</a
+        >
+        <a
+          href="https://leetcode.com/youusf-c"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LeetCode</a
+        >
+        <a
+          href="https://www.instagram.com/yousuf.env"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram</a
+        >
+        <a
+          href="https://discordapp.com/users/s_saad7743"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Discord</a
+        >
+      </div>
+      <div class="footer-bottom">
+        <span>Made with HTML, CSS and JavaScript.</span
+        ><span>© <span data-year>2026</span> Khaja Yousuf Uddin</span
+        ><a
+          href="https://github.com/YousufProjs-exe/Portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Website source ↗</a
+        >
+      </div>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>

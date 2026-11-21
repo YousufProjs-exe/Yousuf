@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A selection of software, hardware and web projects built by Khaja Yousuf Uddin."
+    />
+    <meta name="theme-color" content="#f3f0e6" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Selected Work — Yousuf" />
+    <meta
+      property="og:description"
+      content="A selection of software, hardware and web projects built by Khaja Yousuf Uddin."
+    />
+    <meta
+      property="og:url"
+      content="https://yousufprojs-exe.github.io/Portfolio/work.html"
+    />
+    <meta name="author" content="Khaja Yousuf Uddin" />
+    <meta name="color-scheme" content="light" />
+    <title>Selected Work — Yousuf</title>
+    <link rel="preconnect" href="https://raw.githubusercontent.com" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="work">
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="ruler" aria-hidden="true"><i></i><span id="pct">0%</span></div>
+    <header class="site-head">
+      <nav class="index" aria-label="Main navigation">
+        <a href="index.html" data-page="index">Home</a
+        ><a href="work.html" data-page="work">Work</a
+        ><a href="archive.html" data-page="archive">Archive</a
+        ><a href="about.html" data-page="about">About</a>
+      </nav>
+      <span class="head-note mono">KH. YOUSUF UDDIN / PORTFOLIO</span>
+    </header>
+    <main id="main">
+      <section class="page-intro" data-reveal>
+        <p class="mono eyebrow">A FEW THINGS I'VE MADE</p>
+        <h1>Selected<br />work<span class="period">.</span></h1>
+        <p class="intro-note">
+          Different problems, different tools. Most started as something I
+          wanted to understand or make for myself.
+        </p>
+      </section>
+      <section class="section work-list" data-reveal>
+        <p class="tag"><b>01</b> Projects</p>
+        <article class="work-feature">
+          <div class="work-meta mono">
+            01 / JAVA · DESKTOP · NETWORKING <span>FLAGSHIP</span>
+          </div>
+          <h2>YSH Terminal</h2>
+          <figure class="wide-shot">
+            <img
+              src="https://raw.githubusercontent.com/YousufProjs-exe/YSH-v8/main/YSH-SS/YSHv10ss.png"
+              alt="YSH Terminal v10 screenshot"
+              loading="lazy"
+            />
+          </figure>
+          <div class="work-copy">
+            <p>
+              YSH (Yousuf Shell) is a Java desktop shell with a graphical
+              terminal interface. It has real filesystem operations, custom
+              commands, command history, themes, a calculator, notes, developer
+              mode and LAN chat with file sharing.
+            </p>
+            <p>
+              It has moved through several versions: the early CLI builds, the
+              first GUI, v7, v8 and the current v10 line. Each version has been
+              a chance to rebuild parts of it and learn something new.
+            </p>
+            <p class="mono version-trail">
+              CLI V1–V5 → FIRST GUI v5 → V7 → V8 → Linux v8 → v8.1.4 Latest → V10 Beta 
+            </p>
+            <div class="links">
+              <a
+                href="https://github.com/YousufProjs-exe/YSH-v10"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Repository ↗</a
+              ><a
+                href="https://github.com/YousufProjs-exe/YSH-v10/releases"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Releases ↗</a
+              ><a
+                href="https://yshweb.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Project website ↗</a
+              >
+            </div>
+          </div>
+        </article>
+        <div class="project-index">
+          <details open>
+            <summary>
+              <span class="mono">02</span
+              ><span class="project-name">YSH OS</span
+              ><span class="mono">JAVA / IN PROGRESS</span>
+            </summary>
+            <div class="detail-body">
+              <div>
+                <p>
+                  A desktop environment simulated inside a Java application. I'm
+                  working through windows, desktop interactions, application
+                  state and the small details that make a desktop feel coherent.
+                </p>
+                <a
+                  href="https://github.com/YousufProjs-exe/YSH-OS-Desktop"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Repository ↗</a
+                >
+              </div>
+              <p class="image-note">
+                Work in progress — screenshots will be added when the interface
+                is ready to show.
+              </p>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="mono">03</span
+              ><span class="project-name">Hakin Pad</span
+              ><span class="mono">HARDWARE</span>
+            </summary>
+            <div class="detail-body">
+              <div>
+                <p>
+                  A custom macro pad built around a Seeed XIAO RP2040, with
+                  seven keys, two rotary encoders, an OLED display, a custom PCB
+                  and a 3D-printed case.
+                </p>
+                <a
+                  href="https://github.com/YousufProjs-exe/Hakin-Pad"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Repository ↗</a
+                >
+              </div>
+              <figure class="detail-shot">
+                <img
+                  src="https://raw.githubusercontent.com/YousufProjs-exe/Hakin-Pad/main/Screenshots/NEW.png"
+                  alt="Hakin Pad hardware project"
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="mono">04</span
+              ><span class="project-name">YSH Slack Bot</span
+              ><span class="mono">NODE.JS / SLACK BOLT</span>
+            </summary>
+            <div class="detail-body">
+              <div>
+                <p>
+                  A Slack bot with utility commands, polls, reminders and a
+                  mention-to-DM relay. Built with Node.js and Slack Bolt, using
+                  Socket Mode.
+                </p>
+                <a
+                  href="https://github.com/YousufProjs-exe/YSH-Slack-Bot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Repository ↗</a
+                >
+              </div>
+              <figure class="detail-shot">
+                <img
+                  src="https://raw.githubusercontent.com/YousufProjs-exe/YSH-Slack-Bot/main/Screenshots/ysh-neofetch.png"
+                  alt="YSH Slack Bot response in Slack"
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="mono">05</span
+              ><span class="project-name">Doodle</span
+              ><span class="mono">HTML / CSS / JS</span>
+            </summary>
+            <div class="detail-body">
+              <div>
+                <p>
+                  A browser-based drawing app with a canvas, brush and eraser
+                  tools, undo and redo, shapes, keyboard shortcuts and image
+                  export.
+                </p>
+                <a
+                  href="https://github.com/YousufProjs-exe/Doodle"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Repository ↗</a
+                >
+              </div>
+              <figure class="detail-shot">
+                <img
+                  src="https://raw.githubusercontent.com/YousufProjs-exe/Doodle/main/screenshots/pixel-art.png"
+                  alt="Doodle drawing app canvas"
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="mono">06</span
+              ><span class="project-name">Billie</span
+              ><span class="mono">GODOT</span>
+            </summary>
+            <div class="detail-body">
+              <div>
+                <p>
+                  A small desktop cat experiment made with Godot. A different
+                  kind of project from my usual tools and interfaces.
+                </p>
+                <a
+                  href="https://github.com/YousufProjs-exe/Billie"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Repository ↗</a
+                >
+              </div>
+              <figure class="detail-shot">
+                <img
+                  src="https://raw.githubusercontent.com/YousufProjs-exe/Billie/main/assets/lil_meow.png"
+                  alt="Billie desktop cat project"
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="mono">07</span
+              ><span class="project-name">SkyPulse</span
+              ><span class="mono">WEATHER / WEB</span>
+            </summary>
+            <div class="detail-body">
+              <div>
+                <p>
+                  A responsive weather app built with HTML, CSS and JavaScript
+                  using the OpenWeather API. It supports location detection,
+                  city search, current conditions, local time and recent search
+                  history.
+                </p>
+                <div class="links">
+                  <a
+                    href="https://github.com/YousufProjs-exe/Sky-Pulse"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Repository ↗</a
+                  ><a
+                    href="https://skypluse.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live site ↗</a
+                  >
+                </div>
+              </div>
+              <figure class="detail-shot">
+                <img
+                  src="https://raw.githubusercontent.com/YousufProjs-exe/Portfolio/main/assets/projects/skypulse-home.png"
+                  alt="SkyPulse weather app screenshot"
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="mono">08</span
+              ><span class="project-name">Stack Node</span
+              ><span class="mono">QUIZ APP</span>
+            </summary>
+            <div class="detail-body">
+              <div>
+                <p>
+                  An interactive quiz application. The project is part of my
+                  work exploring browser-based application structure and
+                  interaction.
+                </p>
+                <div class="links">
+                  <a
+                    href="https://github.com/YousufProjs-exe/Stack-Node"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Repository ↗</a
+                  ><a
+                    href="https://stacknode.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live site ↗</a
+                  >
+                </div>
+              </div>
+              <figure class="detail-shot">
+                <img
+                  src="https://raw.githubusercontent.com/YousufProjs-exe/Portfolio/main/assets/projects/stacknode-home.png"
+                  alt="Stack Node quiz app screenshot"
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="mono">09</span
+              ><span class="project-name">Horizon Dashboard</span
+              ><span class="mono">WEB APP</span>
+            </summary>
+            <div class="detail-body">
+              <div>
+                <p>
+                  A personal dashboard combining quick notes, tasks, weather and
+                  small productivity widgets in a responsive interface.
+                </p>
+                <div class="links">
+                  <a
+                    href="https://github.com/YousufProjs-exe/Horizon-Dashboard"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Repository ↗</a
+                  ><a
+                    href="https://horizon-dash.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live site ↗</a
+                  >
+                </div>
+              </div>
+              <figure class="detail-shot">
+                <img
+                  src="https://raw.githubusercontent.com/YousufProjs-exe/Portfolio/main/assets/projects/horizon.png"
+                  alt="Horizon Dashboard screenshot"
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="mono">10</span><span class="project-name">Arc</span
+              ><span class="mono">C++ / QT</span>
+            </summary>
+            <div class="detail-body">
+              <div>
+                <p>
+                  A desktop browser experiment built with C++ and Qt. Part of my
+                  interest in desktop software beyond web applications.
+                </p>
+                <a
+                  href="https://github.com/YousufProjs-exe/Arc-"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Repository ↗</a
+                >
+              </div>
+              <p class="image-note">
+                Work in progress — screenshots will be added when the interface
+                is ready to show.
+              </p>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="mono">11</span
+              ><span class="project-name">BITSHIFT</span
+              ><span class="mono">HARDWARE / CAD</span>
+            </summary>
+            <div class="detail-body">
+              <div>
+                <p>
+                  A hardware design project exploring PCB and CAD workflows.
+                </p>
+                <a
+                  href="https://github.com/YousufProjs-exe/BITSHIFT"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Repository ↗</a
+                >
+              </div>
+              <div class="bitshift-project-gallery" aria-label="BITSHIFT design images">
+                <figure class="detail-shot">
+                  <img src="assets/projects/bitshift/front.png" alt="BITSHIFT front view" loading="lazy" />
+                  <figcaption>FRONT</figcaption>
+                </figure>
+                <figure class="detail-shot">
+                  <img src="assets/projects/bitshift/back.png" alt="BITSHIFT back view" loading="lazy" />
+                  <figcaption>BACK</figcaption>
+                </figure>
+                <figure class="detail-shot">
+                  <img src="assets/projects/bitshift/pcb.png" alt="BITSHIFT PCB layout" loading="lazy" />
+                  <figcaption>PCB LAYOUT</figcaption>
+                </figure>
+                <figure class="detail-shot">
+                  <img src="assets/projects/bitshift/sch.png" alt="BITSHIFT schematic" loading="lazy" />
+                  <figcaption>SCHEMATIC</figcaption>
+                </figure>
+              </div>
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="mono">12</span
+              ><span class="project-name">YSH Website</span
+              ><span class="mono">WEB / DOCUMENTATION</span>
+            </summary>
+            <div class="detail-body">
+              <div>
+                <p>
+                  The project website and knowledge base for the YSH ecosystem.
+                </p>
+                <div class="links">
+                  <a
+                    href="https://github.com/YousufProjs-exe/YSH-WEBSITE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Repository ↗</a
+                  ><a
+                    href="https://yshweb.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live site ↗</a
+                  >
+                </div>
+              </div>
+            </div>
+          </details>
+        </div>
+        <p class="note also">
+          Smaller experiments and older projects are listed in the GitHub
+          archive.
+        </p>
+      </section>
+    </main>
+    <footer class="site-footer" id="contact">
+      <p class="tag"><b>↳</b> Contact</p>
+      <h2>Have something<br />worth building?</h2>
+      <a class="contact-mail" href="mailto:saadkhaja2@gmail.com"
+        >saadkhaja2@gmail.com ↗</a
+      >
+      <div class="socials">
+        <a
+          href="https://github.com/YousufProjs-exe"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/yousuf-uddin-a839b23b2"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn</a
+        >
+        <a
+          href="https://leetcode.com/youusf-c"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LeetCode</a
+        >
+        <a
+          href="https://www.instagram.com/yousuf.env"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram</a
+        >
+        <a
+          href="https://discordapp.com/users/s_saad7743"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Discord</a
+        >
+      </div>
+      <div class="footer-bottom">
+        <span>Made with HTML, CSS and JavaScript.</span
+        ><span>© <span data-year>2026</span> Khaja Yousuf Uddin</span
+        ><a
+          href="https://github.com/YousufProjs-exe/Portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Website source ↗</a
+        >
+      </div>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
